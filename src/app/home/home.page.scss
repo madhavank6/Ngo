@@ -1,0 +1,96 @@
+
+ion-content.body{
+  --background: url('../../assets/icon/bg.jpg') no-repeat center/cover fixed;
+}
+
+.center{
+  margin-top: 300px;
+}
+h4{
+  color:#a42705;
+  font-size:20px;
+  float:right;
+  font-family:sans-serif;
+}
+i{
+  margin-left:1.3rem;
+  margin-top:2.6rem;
+}
+ion-input{
+  font-family:"adobe-clean", sans-serif;
+  
+}
+
+button{
+  background-color:#38daa5 ;
+  width:240px;
+  color:whitesmoke;
+  font-weight: 1000px;
+  font-family:sans-serif;
+  opacity: 0.8;
+
+}
+[transparent]{
+  --background:transparent;
+}
+
+
+@media(min-width:321px){
+  button{
+    background-color:#38daa5 ;
+    width:290px;
+    color:white;
+  }
+}
+@media(min-width:376px){
+  button{
+    background-color:#38daa5 ;
+    width:330px;
+    color:white;
+  }
+  i{
+ 
+    margin-left:1.3rem;
+    margin-top:2.6rem;
+  }
+}
+@media(min-width:426px){
+  button{
+    background-color:#38daa5 ;
+    width:310px;
+    color:white;
+    
+  }
+  i{
+ 
+    margin-left:10rem;
+    margin-top:2.6rem;
+  }
+}
+
+
+
+@media(min-width:769px){
+  button{
+    background-color:#38daa5 ;
+    width:440px;
+    color:white;
+    
+  }
+  i{
+ 
+    margin-left:15rem;
+    margin-top:2.6rem;
+  }
+}
+@media(min-width:1026px){
+  button{
+    background-color:#38daa5 ;
+    width:600px;
+    color:white;  
+  }
+  i{
+    margin-left:20rem;
+    margin-top:2.6rem;
+  }
+}
