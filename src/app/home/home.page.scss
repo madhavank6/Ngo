@@ -1,28 +1,44 @@
 
 ion-content.body{
-  --background: url('../../assets/icon/bg.jpg') no-repeat center/cover fixed;
+  --background: url('../../assets/icon/background.png') no-repeat center/cover fixed;
+    
+   
 }
 
 .center{
-  margin-top: 300px;
+  margin-top: 330px;
 }
-h4{
-  color:#a42705;
+.logo{
+  width:70px;
+  height:70px;
+}
+span{
+  color:#E60918;
   font-size:20px;
   float:right;
-  font-family:sans-serif;
+  font-family:"Montserrat";
+}
+
+
+.example-full-width{
+  width:260px;
+  font-family: "Montserrat";
+ 
+}
+.mat-form-field {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.125;
+  font-family: Roboto,"Helvetica Neue",sans-serif;
+  font-style: Montserrat;
 }
 i{
-  margin-left:1.3rem;
-  margin-top:2.6rem;
-}
-ion-input{
-  font-family:"adobe-clean", sans-serif;
-  
+  margin-left:1.7rem;
+  margin-top:2rem;
 }
 
 button{
-  background-color:#38daa5 ;
+  background-color:#00B4AC ;
   width:240px;
   color:whitesmoke;
   font-weight: 1000px;
@@ -42,37 +58,34 @@ button{
     color:white;
   }
 }
-@media(min-width:376px){
+@media(min-width:375px){
   button{
-    background-color:#38daa5 ;
-    width:330px;
+    background-color:#00B4AC ;
+    width:309px;
     color:white;
   }
   i{
+    margin-left:1.7rem;
+    margin-top:2rem;
+  }
  
-    margin-left:1.3rem;
-    margin-top:2.6rem;
-  }
 }
-@media(min-width:426px){
-  button{
-    background-color:#38daa5 ;
-    width:310px;
-    color:white;
-    
-  }
+
+@media(min-width:425px){
+  
   i{
- 
-    margin-left:10rem;
-    margin-top:2.6rem;
+    margin-left:1.9rem;
+    margin-top:2rem;
   }
+ 
 }
+
 
 
 
 @media(min-width:769px){
   button{
-    background-color:#38daa5 ;
+    background-color:#00B4AC ;
     width:440px;
     color:white;
     
@@ -80,17 +93,6 @@ button{
   i{
  
     margin-left:15rem;
-    margin-top:2.6rem;
-  }
-}
-@media(min-width:1026px){
-  button{
-    background-color:#38daa5 ;
-    width:600px;
-    color:white;  
-  }
-  i{
-    margin-left:20rem;
     margin-top:2.6rem;
   }
 }
