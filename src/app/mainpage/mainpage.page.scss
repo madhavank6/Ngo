@@ -119,6 +119,40 @@ ion-content.body{
         font-family: "Adobe Caslon Pro,Adobe Caslon Pro";
         color: #2B580C;
     }
+
+    @media only screen and (min-height:670px) {
+        .nallorevattamimage{
+        
+            margin-top: 107px;
+           
+        }
+
+        .middle{
+            margin-top:38px;
+        }
+        .menuicon{
+            width:37px;
+           
+        }
+        .gape{
+            margin-top: 40px;
+            margin-left:30px;
+            
+        }
+       
+        .link{
+           
+            font-size:20px;
+            margin-top:46px;
+            font-family: "Adobe Caslon Pro,Adobe Caslon Pro";
+            color: #2B580C;
+        }
+    
+
+
+    }
+
+     
     @media only screen and (max-width:320px) {
     .position{
         position: absolute;
@@ -132,7 +166,7 @@ ion-content.body{
     @media only screen and (min-width:375px)and(max-width:424px) {
         .position{
             position: absolute;
-            margin-top: -102px;
+            margin-top: -116px;
             margin-left: -84px;
             margin-right: -64px;
                 
@@ -158,28 +192,57 @@ ion-content.body{
       }
 
 
-      .bottom-position{
-        margin-left: 119px;
-        margin-top: 39px;
+ .bottom-position
+ {
+     margin-left: 119px;
+     margin-top: 39px;
+     width: 356px;
+         
+ }
+
+@media only screen and (min-width:460px) {
+        
+    .bottom-position
+    {
+        margin-left: 170px;
+        margin-top: 25px;
         width: 356px;
-         
-      }
-
-      @media only screen and(min-width:411px) and (min-height:846px) {
-        .position{
-            position: absolute;
-            margin-top: -102px;
-            margin-left: -84px;
-            margin-right: -99px;
-                
-            }
-
-            .bottom-position{
-                margin-left: 119px;
-               margin-top: 25px;
-               width: 356px;
-         
-      }
-      }
+     }
+}
       
-      
+@media only screen and (min-width:660px) {
+        
+  .bottom-position{
+    margin-left: 119px;
+    margin-top: -34px;
+    width: 356px;
+      }
+ }
+
+ @media only screen and (min-height:680px) {
+        
+    .bottom-position{
+        margin-left: 196px;
+        margin-top: -72px;
+        width: 356px;
+  }
+}
+ @media only screen and (min-height:700px) {
+        
+    .bottom-position{
+         margin-left: 196px;
+         margin-top: -57px;
+         width: 356px;
+  }
+}
+@media only screen and (min-height:750px) {
+        
+    .bottom-position{
+        margin-left: 196px;
+        margin-top: 13px;
+        width: 356px;
+  }
+}
+
+
+ 
